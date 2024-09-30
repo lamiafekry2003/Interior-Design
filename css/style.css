@@ -1,0 +1,36 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+.scrolled {
+    background-color: #ffffff; /* Light background */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+@media (min-width:1285px) and (max-width:1430px) {
+    .second{
+        right: 0 !important;
+    }
+    .bor{
+        left: -12px !important;
+    }
+    .icon{
+        right: -40px !important;
+    }
+}
+/*  */
+@media (min-width:1280px) and (max-width:1300px) {
+    .countmer{
+        padding-bottom: 160px;
+    }
+    .secondcountmer h4{
+        font-size: 45px;
+    }
+    .cutomers .one{
+        width: 400px !important;
+        left: -420px;
+        top: 0;
+    }
+    .cutomers .two{
+        width: 400px !important;
+        top: 0;
+    }
+}
